@@ -1,0 +1,253 @@
+/*
+Theme Name: 
+Theme URI: 
+Description: 
+Author URI: 
+*/
+
+body{
+	background-color:#f0f0f0;
+	/* (background: url(images/paper_bg.jpg); */
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:.9em;
+	margin:0;
+	padding:0;
+}
+h1{
+	font-family: Optimer;
+	font-weight:normal;
+}
+h2{
+	font-family: Optimer;
+	font-weight:normal;
+}
+h3{
+	font-family: Optimer;
+	font-weight:normal;
+}
+#top{
+	height:55px;
+	background-color:#0f4d90;
+	border-bottom:5px solid #fff;
+}
+#contentBg{
+	background:url(images/gradient.png) repeat-x;
+	min-height:570px;
+}
+#shell{
+	width:1000px;
+	margin:auto;
+}
+#sideNav{
+	width:197px;
+	float:left;
+	margin-top:-60px;
+}
+#sideNav ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	margin-top:10px;
+	text-align:center;
+}
+#sideNav li{
+	padding:10px 0 10px 0;
+	border-bottom:1px solid #d4cec5;
+}
+#sideNav li a{
+	text-decoration:none;
+	color:black;
+}
+#sideNav li a:hover{
+	color:#2e3999;
+	border-bottom:1px dashed gray;
+}
+#sideNav ul ul{
+	display:none;
+}
+.logo{
+	margin-left:-28px;
+}
+#nav{
+	float:left;
+	margin-top:-60px;
+}
+#nav ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#nav li{
+	float:left;
+}
+#nav li a{
+	display:block;
+	height:21px;
+	padding:17px;
+	padding-left:25px;
+	padding-right:25px;
+	color:white;
+	text-decoration:none;
+}	
+#nav li a:hover{
+	background-color:#426DA9;
+}
+#content{
+	width:585px;
+	float:left;
+	margin-left:20px;
+}
+#contentContent{
+	background:white url(images/content_top.png) repeat-x top;
+	border:1px solid #dedddd;
+	padding:25px;
+}
+#contentContent h2{
+	margin:0;
+	padding:0;
+	border-bottom:1px solid #d4cec5;
+}
+#ticker{
+	border:1px #dcd7ce solid;
+	margin-bottom:3px;
+}
+#search{
+	width:170px;
+	float:right;
+	text-align:left;
+	padding-top:10px;
+}
+#sidebar{
+	width:150px;
+	float:right;
+	background-color:#d3d3d3;
+	margin-top:20px;
+	text-align:center;
+	padding:15px;
+	border:1px solid #c7c5c5;
+}
+#sidebar hr{
+	border:0;
+	border-bottom:1px solid #e9e9e9;
+}
+#footer{
+	margin-top:10px;
+	clear:both;
+	background-color:#0f4d90;
+	color:white;
+}
+#footerLegal{
+	background-color:#fff;
+	height: 30px;
+	width:100%;
+	margin:auto;
+	padding-top:10px;
+}
+#footerContact{
+	background-color:#f0f0f0;
+	border-bottom:5px solid #fff;
+	height: 60px;
+	width:100%;
+	margin:auto;
+	padding-top:10px;
+}
+#footerShell{
+	width:1000px;
+	margin:auto;
+	padding-top:10px;
+}
+#footerShell ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#footerShell ul ul{
+	padding-left:25px;
+}
+#footerShell li a{
+	display:block;
+	color:white;
+	text-decoration:none;
+	border-bottom:1px dotted #333333;
+	padding:5px;
+}
+#footerShell li a:hover{
+	background-color:#426DA9;
+}	
+.header{
+	padding:4px;
+	background-color:#FFFFFF;
+	border:1px solid #d4cec5;
+	margin-bottom:5px;
+}
+.copyright{
+	font-size:.8em;
+	text-align:center;
+}
+.more a{
+	text-decoration:none;
+	background-color:#c7c5c5;
+	padding:5px;
+	display:block;
+	color:black;
+}
+.more a:hover{
+	background-color:white;
+	color:#666666;
+}
+.weather_info{
+	text-align:center;
+}
+#slideshow{
+	width:584px;
+	height:350px;
+	background-image:url(images/slideshow/ladylake_blvd.jpg);
+	margin-bottom:5px;
+}
+/* Begin Images */
+p img {
+	padding: 0;
+	max-width: 100%;
+	}
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left;
+	}
+/* End Images */
+.directory{
+	font-size:.7em;
+}
+.directory h2{
+	font-size:2.2em;
+	line-height:2em;
+}
+.table{
+	font-size:.7em;
+}
